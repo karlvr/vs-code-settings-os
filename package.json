@@ -26,8 +26,8 @@
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "node ./test/runTest.js",
-    "package": "vsce package",
-    "publish": "vsce publish"
+    "package": "npx -y vsce package",
+    "publish": "npx -y vsce publish"
   },
   "dependencies": {
     "jsonc-parser": "^3.2.1"
